@@ -1,5 +1,5 @@
 # zf-oauth2-doctrine-gui
-A GUI for managing zfcampus/zf-oauth2-doctrine
+A GUI for managing api-skeletons/zf-oauth2-doctrine
 
 ## Installation
 
