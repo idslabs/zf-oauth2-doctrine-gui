@@ -1,0 +1,24 @@
+{
+	"name" : "idslabs/zf-oauth2-doctrine-gui",
+	"description" : "A GUI for managing idslabs/zf-oauth2-doctrine",
+	"license" : "BSD-3-Clause",
+	"keywords" : [
+		"oauth2",
+		"doctrine",
+		"apigility",
+		"gui"
+	],
+	"require" : {
+		"php" : ">=5.5",
+		"zfcampus/zf-oauth2" : "^1.3",
+		"ramsey/uuid" : "^3.5"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"DoctrineGui\\" : "src/"
+		},
+		"classmap" : [
+			"Module.php"
+		]
+	}
+}
